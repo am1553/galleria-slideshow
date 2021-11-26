@@ -5,32 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-sleeping-gypsy/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Sleeping Gypsy
-  Henri Rousseau
+      <div class="artpage_art-info">
+        <h2>The Sleeping Gypsy</h2>
+        <div class="subhead-one">Henri Rousseau</div>
+      </div>
+    </section>
 
-  1897
-  The Sleeping Gypsy (French: La Bohémienne endormie) is an 1897 oil painting by 
-  French Naïve artist Henri Rousseau (1844–1910). It is a fantastical depiction 
-  of a lion musing over a sleeping woman on a moonlit night. Rousseau first 
-  exhibited the painting at the 13th Salon des Indépendants, and tried unsuccessfully 
-  to sell it to the mayor of his hometown, Laval. Instead, it entered the private 
-  collection of a Parisian charcoal merchant where it remained until 1924, when it 
-  was discovered by the art critic Louis Vauxcelles."
+    <section class="artpage_description">
+      <img src="assets/the-sleeping-gypsy/artist.jpg" alt="">
+      <div class="number">1897</div>
+      <div class="description-container">
+        <p>
+          The Sleeping Gypsy (French: La Bohémienne endormie) is an 1897 oil painting by 
+        French Naïve artist Henri Rousseau (1844–1910). It is a fantastical depiction 
+        of a lion musing over a sleeping woman on a moonlit night. Rousseau first 
+        exhibited the painting at the 13th Salon des Indépendants, and tried unsuccessfully 
+        to sell it to the mayor of his hometown, Laval. Instead, it entered the private 
+        collection of a Parisian charcoal merchant where it remained until 1924, when it 
+        was discovered by the art critic Louis Vauxcelles.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Sleeping_Gypsy" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Sleeping_Gypsy -->
-
-  The Sleeping Gypsy
-  Henri Rousseau
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Sleeping Gypsy</h3>
+      <div class="subhead-two">Henri Rousseau</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>
+  
+  
+  

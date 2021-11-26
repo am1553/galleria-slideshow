@@ -5,31 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/girl-with-pearl-earring/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  Girl with a Pearl Earring
-  Johannes Vermeer
+      <div class="artpage_art-info">
+        <h2>Girl with a Pearl Earring</h2>
+        <div class="subhead-one">Johannes Vermeer</div>
+      </div>
+    </section>
 
-  1665
-  The painting is a tronie, the Dutch 17th-century description of a 'head' that was 
-  not meant to be a portrait. It depicts a European girl wearing an exotic dress, 
-  an oriental turban, and what was thought to be a very large pearl as an earring. 
-  In 2014, Dutch astrophysicist Vincent Icke raised doubts about the material of the 
-  earring and argued that it looks more like polished tin than pearl on the grounds 
-  of the specular reflection, the pear shape and the large size of the earring.
+    <section class="artpage_description">
+      <img src="assets/girl-with-pearl-earring/artist.jpg" alt="">
+      <div class="number">1665</div>
+      <div class="description-container">
+        <p>
+          The painting is a tronie, the Dutch 17th-century description of a 'head' that was 
+          not meant to be a portrait. It depicts a European girl wearing an exotic dress, 
+          an oriental turban, and what was thought to be a very large pearl as an earring. 
+          In 2014, Dutch astrophysicist Vincent Icke raised doubts about the material of the 
+          earring and argued that it looks more like polished tin than pearl on the grounds 
+          of the specular reflection, the pear shape and the large size of the earring.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring -->
-
-  Girl with a Pearl Earring
-  Johannes Vermeer
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>Girl with a Pearl Earring</h3>
+      <div class="subhead-two">Johannes Vermeer</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>

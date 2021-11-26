@@ -1,0 +1,32 @@
+.artpage_artwork {
+  position: relative;
+  .artpage_art {
+    width: 100%;
+  }
+  button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: space-around;
+    align-items: center;
+  }
+  .artpage_art-info {
+    position: absolute;
+    background-color: $white;
+    bottom: -30px;
+    width: 80%;
+    padding: 2rem 0 2rem 2rem;
+
+    h2 {
+      margin: 0.5rem 0;
+    }
+    .subhead-one {
+      color: $gray;
+    }
+  }
+}

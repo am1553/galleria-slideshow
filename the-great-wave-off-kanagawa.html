@@ -5,32 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
-
-  The Great Wave off Kanagawa
-  Hokusai
-
-  1831
-  The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn: Kanagawa-oki Nami 
-  Ura, lit. "Under the Wave off Kanagawa"), also known as The Great Wave or simply 
-  The Wave, is a woodblock print by the Japanese ukiyo-e artist Hokusai. It was 
-  published sometime between 1829 and 1833 in the late Edo period as the first 
-  print in Hokusai's series Thirty-six Views of Mount Fuji. The image depicts an 
-  enormous wave threatening three boats off the coast in the Sagami Bay (Kanagawa 
-  Prefecture) while Mount Fuji rises in the background. 
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
   
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa -->
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-great-wave-off-kanagawa/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Great Wave off Kanagawa
-  Hokusai
+      <div class="artpage_art-info">
+        <h2>The Great Wave off Kanagawa</h2>
+        <div class="subhead-one">Hokusai</div>
+      </div>
+    </section>
+
+    <section class="artpage_description">
+      <img src="assets/the-great-wave-off-kanagawa/artist.jpg" alt="">
+      <div class="number">1831</div>
+      <div class="description-container">
+        <p>
+          The Great Wave off Kanagawa (Japanese: 神奈川沖浪裏, Hepburn: Kanagawa-oki Nami 
+          Ura, lit. "Under the Wave off Kanagawa"), also known as The Great Wave or simply 
+          The Wave, is a woodblock print by the Japanese ukiyo-e artist Hokusai. It was 
+          published sometime between 1829 and 1833 in the late Edo period as the first 
+          print in Hokusai's series Thirty-six Views of Mount Fuji. The image depicts an 
+          enormous wave threatening three boats off the coast in the Sagami Bay (Kanagawa 
+          Prefecture) while Mount Fuji rises in the background. 
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Great Wave off Kanagawa</h3>
+      <div class="subhead-two">Hokusai</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>
+  
+
+  
+  

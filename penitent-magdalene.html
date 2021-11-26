@@ -5,30 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/penitent-magdalene/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  Penitent Magdalene
-  Artemisia Gentileschi
+      <div class="artpage_art-info">
+        <h2>Penitent Magdalene</h2>
+        <div class="subhead-one">Artemisia Gentileschi</div>
+      </div>
+    </section>
 
-  1625
-  Penitent Magdalene is a painting by the Italian artist Artemisia Gentileschi. 
-  It hangs in Seville Cathedral. It has probably been in the cathedral since the 
-  late 17th century. The painting's first home was the collection of Fernando 
-  Enriquez Afan de Ribera, from 1626 to 1637. She returned to the subject later 
-  in the 1620s in Mary Magdalene as Melancholy. 
+    <section class="artpage_description">
+      <img src="assets/penitent-magdalene/artist.jpg" alt="">
+      <div class="number">1625</div>
+      <div class="description-container">
+        <p>
+          Penitent Magdalene is a painting by the Italian artist Artemisia Gentileschi. 
+          It hangs in Seville Cathedral. It has probably been in the cathedral since the 
+          late 17th century. The painting's first home was the collection of Fernando 
+          Enriquez Afan de Ribera, from 1626 to 1637. She returned to the subject later 
+          in the 1620s in Mary Magdalene as Melancholy.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi)" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/Penitent_Magdalene_(Artemisia_Gentileschi) -->
-
-  Penitent Magdalene
-  Artemisia Gentileschi
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>Penitent Magdalene</h3>
+      <div class="subhead-two">Artemisia Gentileschi</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>

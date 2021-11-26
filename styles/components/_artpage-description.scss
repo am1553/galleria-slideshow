@@ -1,0 +1,17 @@
+.artpage_description {
+  position: relative;
+  img {
+    margin: 1rem;
+    width: 64px;
+    height: 64px;
+  }
+  .number {
+    position: absolute;
+    top: 35px;
+    right: 0;
+  }
+
+  .description-container {
+    padding: 2rem 0;
+  }
+}

@@ -1,0 +1,33 @@
+section {
+  width: 85%;
+  margin: 2rem auto 0;
+  position: relative;
+  .overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+  }
+  div {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .art-info {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      width: 70%;
+      z-index: 5;
+      h2 {
+        color: $white;
+        margin: 0.5rem 0;
+      }
+      .subhead-two {
+        font-weight: 400;
+        color: $light-gray;
+      }
+    }
+  }
+}

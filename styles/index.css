@@ -1,0 +1,272 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+body h1,
+body h2,
+body h3,
+body .link-one,
+body .link-two,
+body body,
+body .number {
+  font-weight: bold;
+}
+
+body h1 {
+  font-size: clamp(1.5rem, 2vw, 3.5rem);
+  line-height: clamp(1.8125rem, 2vh, 4rem);
+}
+
+body h2 {
+  font-size: 1.5rem;
+  line-height: auto;
+}
+
+body h3 {
+  font-size: clamp(0.875rem, 2vw, 1.125rem);
+  line-height: clamp(auto, 2vh, 1.375rem);
+}
+
+body p {
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+}
+
+body .subhead-one {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: clamp(auto, 2vh, 1.1875rem);
+}
+
+body .subhead-two {
+  font-size: 0.8125rem;
+  line-height: clamp(auto, 5vh, 1.0625rem);
+}
+
+body .link-one {
+  font-size: clamp(0.5625rem, 2vw, 0.75rem);
+  line-height: clamp(0.12062rem, 2vh, 0.9375rem);
+  letter-spacing: 0.15625rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #7d7d7d;
+}
+
+body .link-two {
+  font-size: 0.5625rem;
+  line-height: clamp(0.12062rem, 2vh, 0.6875rem);
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  color: #7d7d7d;
+  text-decoration: underline;
+}
+
+body .number {
+  font-size: clamp(6.25rem, 2vw, 12.5rem);
+  line-height: clamp(6.25rem, 2vh, 9.375rem);
+  color: #f3f3f3;
+}
+
+body .button-text {
+  font-size: 0.625rem;
+  letter-spacing: 0.13375rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100;
+  min-height: 100vh;
+}
+
+body a,
+body button {
+  cursor: pointer;
+}
+
+body img {
+  display: block;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.5rem;
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header .logo img {
+  width: 65%;
+}
+
+section {
+  width: 85%;
+  margin: 2rem auto 0;
+  position: relative;
+}
+
+section .overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
+}
+
+section div {
+  position: relative;
+}
+
+section div img {
+  width: 100%;
+}
+
+section div .art-info {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  width: 70%;
+  z-index: 5;
+}
+
+section div .art-info h2 {
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+section div .art-info .subhead-two {
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+.artpage_artwork {
+  position: relative;
+}
+
+.artpage_artwork .artpage_art {
+  width: 100%;
+}
+
+.artpage_artwork button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  width: 8rem;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.artpage_artwork .artpage_art-info {
+  position: absolute;
+  background-color: #fff;
+  bottom: -30px;
+  width: 80%;
+  padding: 2rem 0 2rem 2rem;
+}
+
+.artpage_artwork .artpage_art-info h2 {
+  margin: 0.5rem 0;
+}
+
+.artpage_artwork .artpage_art-info .subhead-one {
+  color: #7d7d7d;
+}
+
+.artpage_description {
+  position: relative;
+}
+
+.artpage_description img {
+  margin: 1rem;
+  width: 64px;
+  height: 64px;
+}
+
+.artpage_description .number {
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.artpage_description .description-container {
+  padding: 2rem 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  position: relative;
+}
+
+footer .footer_button-wrapper {
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer_button-wrapper button {
+  border: none;
+  background: transparent;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / 15);
+  height: 2px;
+  border-top: 1px solid #7d7d7d;
+}
+/*# sourceMappingURL=index.css.map */

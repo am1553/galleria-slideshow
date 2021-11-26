@@ -5,32 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/guernica/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  Guernica
-  Pablo Picasso
+      <div class="artpage_art-info">
+        <h2>Guernica</h2>
+        <div class="subhead-one">Pablo Picasso</div>
+      </div>
+    </section>
 
-  1937
-  The scene occurs within a room where, on the left, a wide-eyed bull stands over 
-  a grieving woman holding a dead child in her arms. In the center of the room a 
-  horse falls in agony with a large gaping hole in its side, as if it had just been 
-  run through by a spear or javelin. The horse appears to be wearing chain mail 
-  armor, decorated with vertical tally marks arranged in rows. A dead and dismembered 
-  soldier lies under the horse. The hand of his severed right arm grasps a shattered 
-  sword, from which a flower grows.
+    <section class="artpage_description">
+      <img src="assets/guernica/artist.jpg" alt="">
+      <div class="number">1937</div>
+      <div class="description-container">
+        <p>
+          The scene occurs within a room where, on the left, a wide-eyed bull stands over 
+          a grieving woman holding a dead child in her arms. In the center of the room a 
+          horse falls in agony with a large gaping hole in its side, as if it had just been 
+          run through by a spear or javelin. The horse appears to be wearing chain mail 
+          armor, decorated with vertical tally marks arranged in rows. A dead and dismembered 
+          soldier lies under the horse. The hand of his severed right arm grasps a shattered 
+          sword, from which a flower grows.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/Guernica_(Picasso)" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/Guernica_(Picasso) -->
-
-  Guernica
-  Pablo Picasso
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>Guernica</h3>
+      <div class="subhead-two">Pablo Picasso</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>

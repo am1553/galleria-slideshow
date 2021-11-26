@@ -5,33 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-night-cafe/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Night Café
-  Vincent Van Gogh
+      <div class="artpage_art-info">
+        <h2>The Night Café</h2>
+        <div class="subhead-one">Vincent Van Gogh</div>
+      </div>
+    </section>
 
-  1888
-  The Night Café (French: Le Café de nuit) is an oil painting created by Dutch 
-  artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed 
-  lower right beneath the signature. The painting is owned by Yale University 
-  and is currently held at the Yale University Art Gallery in New Haven, 
-  Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, 
-  run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for 
-  Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed 
-  for both artists, too. 
+    <section class="artpage_description">
+      <img src="assets/the-night-cafe/artist.jpg" alt="">
+      <div class="number">1888</div>
+      <div class="description-container">
+        <p>
+          The Night Café (French: Le Café de nuit) is an oil painting created by Dutch 
+          artist Vincent van Gogh in September 1888 in Arles. Its title is inscribed 
+          lower right beneath the signature. The painting is owned by Yale University 
+          and is currently held at the Yale University Art Gallery in New Haven, 
+          Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, 
+          run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for 
+          Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed 
+          for both artists, too. 
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Night_Caf%C3%A9 -->
-
-  The Night Café
-  Vincent Van Gogh
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Night Café</h3>
+      <div class="subhead-two">Vincent Van Gogh</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>
+
+
+  
+  

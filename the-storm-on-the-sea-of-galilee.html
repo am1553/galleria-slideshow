@@ -5,30 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-storm-on-the-sea-of-galilee/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Storm on the Sea of Galilee
-  Rembrandt
+      <div class="artpage_art-info">
+        <h2>The Storm on the Sea of Galilee</h2>
+        <div class="subhead-one">Rembrandt</div>
+      </div>
+    </section>
 
-  1633
-  The painting, in vertical format, shows a close-up view of Christ's disciples 
-  struggling frantically against the heavy storm to regain control of their fishing 
-  boat. A huge wave beats the bow and rips the sail. One of the disciples is seen 
-  vomiting over the side. Another one, looking directly out at the viewer, is a 
-  self-portrait of the artist. Only Christ, depicted on the right, remains calm.
+    <section class="artpage_description">
+      <img src="assets/the-storm-on-the-sea-of-galilee/artist.jpg" alt="">
+      <div class="number">1633</div>
+      <div class="description-container">
+        <p>
+          The painting, in vertical format, shows a close-up view of Christ's disciples 
+          struggling frantically against the heavy storm to regain control of their fishing 
+          boat. A huge wave beats the bow and rips the sail. One of the disciples is seen 
+          vomiting over the side. Another one, looking directly out at the viewer, is a 
+          self-portrait of the artist. Only Christ, depicted on the right, remains calm.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Storm_on_the_Sea_of_Galilee -->
-
-  The Storm on the Sea of Galilee
-  Rembrandt
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Storm on the Sea of Galilee</h3>
+      <div class="subhead-two">Rembrandt</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>

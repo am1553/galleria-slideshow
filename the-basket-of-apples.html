@@ -5,32 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-basket-of-apples/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Basket of Apples
-  Paul Cézanne
+      <div class="artpage_art-info">
+        <h2>The Basket of Apples</h2>
+        <div class="subhead-one">Paul Cézanne</div>
+      </div>
+    </section>
 
-  1893
-  The Basket of Apples (French: Le panier de pommes) is a still life oil painting 
-  by French artist Paul Cézanne, which he created c. 1893. The painting is 
-  particularly remarkable for its creative composition, which rejected realistic 
-  representation in favour of distorting objects to create multiple perspectives. 
-  This approach eventually influenced other art movements, including Fauvism and 
-  Cubism. It belongs to the Helen Birch Bartlett Memorial Collection of the Art 
-  Institute of Chicago.
+    <section class="artpage_description">
+      <img src="assets/the-basket-of-apples/artist.jpg" alt="">
+      <div class="number">1893</div>
+      <div class="description-container">
+        <p>
+          The Basket of Apples (French: Le panier de pommes) is a still life oil painting 
+          by French artist Paul Cézanne, which he created c. 1893. The painting is 
+          particularly remarkable for its creative composition, which rejected realistic 
+          representation in favour of distorting objects to create multiple perspectives. 
+          This approach eventually influenced other art movements, including Fauvism and 
+          Cubism. It belongs to the Helen Birch Bartlett Memorial Collection of the Art 
+          Institute of Chicago.
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Basket_of_Apples" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Basket_of_Apples -->
-
-  The Basket of Apples
-  Paul Cézanne
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Basket of Apples</h3>
+      <div class="subhead-two">Paul Cézanne</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>

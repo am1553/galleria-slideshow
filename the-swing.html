@@ -5,32 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/index.css">
   <title>Frontend Mentor | Galleria slideshow site</title>
 </head>
 <body>
-  Stop slideshow
 
-  View image
-  <!-- Modal start -->
-  Close
-  <!-- Modal end -->
+  <header>
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="">
+    </div>
+    <div class="slideshow">
+      <a href="" class="link-one">Stop slideshow</a>
+    </div>
+  </header>
+  
+  <main>
+    <section class="artpage_artwork">
+      <img src="assets/the-swing/hero-small.jpg" alt="image of starry night by vincent van gogh" class="artpage_art">
+      <button class="view-image button-text">
+        <img src="assets/shared/icon-view-image.svg" alt="">
+        <div class="button-text">View Image</div>
+      </button>
 
-  The Swing
-  Jean-Honoré Fragonard
+      <div class="artpage_art-info">
+        <h2>The Swing</h2>
+        <div class="subhead-one">Jean-Honoré Fragonard</div>
+      </div>
+    </section>
 
-  1767
-  The painting depicts an elegant young woman on a swing. A smiling young man, 
-  hiding in the bushes on the left, watches her from a vantage point that allows 
-  him to see up into her billowing dress, where his arm is pointed with hat in 
-  hand. A smiling older man, who is nearly hidden in the shadows on the right, 
-  propels the swing with a pair of ropes. The older man appears to be unaware of 
-  the young man. As the young lady swings high, she throws her left leg up, 
-  allowing her dainty shoe to fly through the air. 
+    <section class="artpage_description">
+      <img src="assets/the-swing/artist.jpg" alt="">
+      <div class="number">1767</div>
+      <div class="description-container">
+        <p>
+          The painting depicts an elegant young woman on a swing. A smiling young man, 
+          hiding in the bushes on the left, watches her from a vantage point that allows 
+          him to see up into her billowing dress, where his arm is pointed with hat in 
+          hand. A smiling older man, who is nearly hidden in the shadows on the right, 
+          propels the swing with a pair of ropes. The older man appears to be unaware of 
+          the young man. As the young lady swings high, she throws her left leg up, 
+          allowing her dainty shoe to fly through the air. 
+        </p>
+      </div>
+      <a href="https://en.wikipedia.org/wiki/The_Swing_(Fragonard)" target="_blank" class="link-two">Go to source</a>
+    </section>
+  </main>
 
-  Go to source <!-- URL: https://en.wikipedia.org/wiki/The_Swing_(Fragonard) -->
-
-  The Swing
-  Jean-Honoré Fragonard
+  <footer>
+    <div class="footer_text-wrapper">
+      <h3>The Swing</h3>
+      <div class="subhead-two">Jean-Honoré Fragonard</div>
+    </div>
+    <div class="footer_button-wrapper">
+      <button class="prev"><img src="assets/shared/icon-back-button.svg" alt=""></button>
+      <button class="next"><img src="assets/shared/icon-next-button.svg" alt=""></button>
+    </div>
+  </footer>
 </body>
 </html>
+
+
+  
+  

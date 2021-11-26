@@ -1,0 +1,94 @@
+body {
+  font-family: "Libre Baskerville", serif;
+
+  h1,
+  h2,
+  h3,
+  .link-one,
+  .link-two,
+  body,
+  .number {
+    font-weight: bold;
+  }
+  // PRIMARY HEADING FOR ART NAME SECTION PAGE
+  h1 {
+    font-size: clamp(1.5rem, 2vw, 3.5rem);
+    line-height: clamp(1.8125rem, 2vh, 4rem);
+  }
+
+  // PRIMARY HEADING FOR ART NAME HOME PAGE
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: auto;
+  }
+
+  // FOOTER HEADING FOR ART NAME SECTION PAGE
+
+  h3 {
+    font-size: clamp(0.875rem, 2vw, 1.125rem);
+    line-height: clamp(auto, 2vh, 1.375rem);
+  }
+
+  // BODY TEXT
+
+  p {
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+  }
+
+  // SUBHEAD - ONE FOR ARTIST NAME FOR SECTION PAGE MAIN
+
+  .subhead-one {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: clamp(auto, 2vh, 1.1875rem);
+  }
+
+  // // SUBHEAD - TWO FOR ARTIST NAME FOR HOME PAGE AND SECTIONPAGE>FOOTER
+
+  .subhead-two {
+    font-size: 0.8125rem;
+    line-height: clamp(auto, 5vh, 1.0625rem);
+  }
+
+  // // LINK-ONE FOR HEADER START/STOP SLIDESHOW
+
+  .link-one {
+    font-size: clamp(0.5625rem, 2vw, 0.75rem);
+    line-height: clamp(0.120625rem, 2vh, 0.9375rem);
+    letter-spacing: 0.15625rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $gray;
+  }
+
+  // // LINK-TWO FOR SOURCE
+
+  .link-two {
+    font-size: 0.5625rem;
+    line-height: clamp(0.120625rem, 2vh, 0.6875rem);
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    color: $gray;
+
+    text-decoration: underline;
+  }
+
+  // // NUMBER - YEAR
+
+  .number {
+    font-size: clamp(6.25rem, 2vw, 12.5rem);
+    line-height: clamp(6.25rem, 2vh, 9.375rem);
+    color: $lightest-light-gray;
+  }
+
+  // // BUTTON TEXT
+
+  .button-text {
+    font-size: 0.625rem;
+    letter-spacing: 0.13375rem;
+    color: $white;
+    text-transform: uppercase;
+  }
+}
